@@ -40,6 +40,7 @@ CREATE TABLE `elec_info` (
   `ib2` double(255,2) DEFAULT NULL,
   `ic1` double(255,2) DEFAULT NULL,
   `ic2` double(255,2) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`date`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 INSERT INTO `elec_info` VALUES ('2018-05-01 00:00:00', '10', '-10', '10', '-10', '10', '-10', '无短路故障');
